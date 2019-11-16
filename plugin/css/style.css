@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#header {
+  cursor: pointer;
+  z-index: 1000;
+  position: fixed;
+  width: 100%; }
+  #header .header-text i {
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    transition: .8s; }
+    #header .header-text i:hover {
+      color: red; }
+  #header .header-text li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .3s linear;
+    text-decoration: none;
+    padding: 8px;
+    color: white; }
+    #header .header-text li a:hover {
+      color: red; }
+
+#slider {
+  cursor: pointer; }
+  #slider .slick-prev {
+    position: absolute;
+    left: 1.5rem;
+    z-index: 1;
+    transform: rotate(180deg);
+    top: 50%; }
+  #slider .slick-prev:before {
+    content: '>';
+    padding: 10px;
+    font-family: 'slick';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    color: #fff; }
+  #slider .slick-next {
+    position: absolute;
+    right: 1.5rem;
+    z-index: 1;
+    top: 50%; }
+  #slider .slick-next:before {
+    content: '>';
+    padding: 10px;
+    font-family: 'slick';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    color: #fff; }
+  #slider .slider-text {
+    color: white;
+    text-align: center; }
+  #slider .one {
+    background-image: url(../photo/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 18em 0; }
+    #slider .one h1 {
+      font-size: 75px;
+      font-weight: 700; }
+  #slider .two {
+    background-image: url(../photo/2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 18em 0; }
+    #slider .two h1 {
+      font-size: 75px;
+      font-weight: 700; }
+
+#section2 p {
+  color: #666666; }
+#section2 .col-lg-6 i {
+  font-size: 22px;
+  color: #A9CD2E;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 50px; }
+#section2 .col-lg-6 h5 {
+  font-family: 'Montserrat', sans-serif; }
+#section2 .col-lg-4 h5 {
+  color: #C7D12E; }
+#section2 .col-lg-4 h2 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif; }
+#section2 .col-lg-4 hr {
+  width: 12%;
+  height: 1px;
+  background-color: #a9cd2e;
+  margin: 15px 88% 0 auto; }
+#section2 .col-lg-4 p {
+  padding-top: 20px; }
+#section2 .col-lg-4 .btm {
+  transition: .3s linear;
+  background-color: #A9CD2E;
+  border: none;
+  color: white; }
+  #section2 .col-lg-4 .btm:hover {
+    border: none;
+    background-color: black;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

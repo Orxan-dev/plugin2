@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    cursor: pointer;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+
+    .header-text {
+        i {
+            padding: 8px;
+            color: white;
+            font-size: 15px;
+            transition: .8s;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        li {
+
+            a {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                transition: .3s linear;
+
+                text-decoration: none;
+                padding: 8px;
+                color: white;
+
+                &:hover {
+                    color: red;
+                }
+
+            }
+        }
+    }
+}
+
+// header end
+// SLIDER START
+#slider {
+    cursor: pointer;
+    .slick-prev{
+        position: absolute;
+        left: 1.5rem;
+        z-index: 1;
+        transform: rotate(180deg);
+        top: 50%;
+        
+    }
+    .slick-prev:before{
+        content: '>';
+        padding: 10px;
+        font-family: 'slick';
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1;
+        color: #fff;
+    }
+    .slick-next{
+        position: absolute;
+        right: 1.5rem;
+        z-index: 1;
+        top: 50%;
+    }
+    .slick-next:before{
+        content: '>';
+        padding: 10px;
+        font-family: 'slick';
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1;
+        color: #fff;
+        
+    }
+
+    .slider-text {
+        color: white;
+        text-align: center;
+    }
+
+    .one {
+      
+        background-image: url(../photo/1.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 18em 0;
+h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+    }
+
+    .two {
+        background-image: url(../photo/2.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 18em 0;
+        h1{
+            font-size: 75px;
+            font-weight: 700;
+        }
+    }
+}
+// slider end
+#section2{
+    p{
+        color: #666666;
+    }
+  .col-lg-6{
+
+   i{
+       font-size: 22px;
+       color: #A9CD2E;
+        padding: 10px;
+        border:1px solid grey;
+        border-radius: 50px;
+    }
+ h5{
+    font-family: 'Montserrat', sans-serif;
+
+ }
+} 
+
+    .col-lg-4 {
+        h5{
+            color: #C7D12E;
+        }
+        h2{
+            padding-top: 20px;
+
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+        }
+        hr{
+        
+        width: 12%;
+        height: 1px;
+        background-color: #a9cd2e;
+        margin: 15px 88% 0 auto;
+    }
+    p{
+        padding-top: 20px;
+    }
+    .btm{
+        transition: .3s linear;
+        background-color: #A9CD2E;
+        border:none;
+        color: white;
+        &:hover{
+            border: none;
+            background-color: black;
+            color: white;
+        }
+
+}
+}
+}
